@@ -31,7 +31,7 @@ export default function Home() {
         if(!response.ok){
           throw new Error(`Erro ao enviar os dados ${response.status}`)
         }
-        console.log("dados enviados")
+        console.log("dados enviados!")
       } catch (error) {
         console.log("Erro ao enviar os dados", error)
       }
